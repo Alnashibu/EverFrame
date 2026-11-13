@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverFrame</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://www.shutterstock.com/image-vector/retro-camera-icon-vector-clipart-600nw-2308689827.jpg"
+        type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="w-full bg-black">
+        <div class="max-w-7xl px-6 py-6 m-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-3xl font-bold text-neutral-300 font-serif"><i
+                            class="fa-solid fa-photo-film mr-4"></i><span>EverFrame</span></a>
+                </div>
+
+                <div class="hidden md:flex items-center gap-3">
+                    <a href="index.html" class="text-neutral-300 hover:text-white">Home</a>
+                    <a href="about.html" class="text-neutral-300 hover:text-white">About</a>
+                    <a href="portfolio.html" class="text-neutral-300 hover:text-white">Portfolio</a>
+                    <a href="services.html" class="text-neutral-300 hover:text-white">Services</a>
+                    <a href="contact.html" class="text-neutral-300  hover:text-white">Contact</a>
+                </div>
+
+                <details class="md:hidden group">
+                    <summary class="list-none text-neutral-300 text-2xl cursor-pointer">
+                        <i class="fa-solid fa-bars group-open:hidden"></i>
+                    </summary>
+                    <div class="flex flex-col gap-4 mt-4 pb-2 absolute left-0 w-full bg-black px-6 py-4">
+                        <a href="index.html" class="text-neutral-300 hover:text-white">Home</a>
+                        <a href="about.html" class="text-neutral-300 hover:text-white">About</a>
+                        <a href="portfolio.html" class="text-neutral-300 hover:text-white">Portfolio</a>
+                        <a href="services.html" class="text-neutral-300 hover:text-white">Services</a>
+                        <a href="contact.html" class="text-neutral-300  hover:text-white">Contact</a>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </nav>
+
+<section class="w-full bg-neutral-900">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center justify-center py-20 px-6">
+            <h1 class="text-3xl font-bold mb-5 text-white font-serif">
+                Contact Us
+            </h1>
+            <p class="max-w-2xl text-neutral-200 text-lg mt-5">
+                We'd love to hear from you! Get in touch with us
+            to discuss your photography needs and let us
+            capture your special moments.
+            </p>
+        </div>
+    </section>
+    <section class="w-full bg-neutral-200">
+        <div class="max-w-7xl mx-auto px-6 py-15">
+            <h2 class="text-3xl md:text-4xl text-center text-black mb-6">
+                Get In Touch
+            </h2>
+            <p class="text-neutral-800 text-center mb-4">
+                Have questions? We're always happy to hear from you.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="bg-white text-center rounded-3xl px-8 py-9">
+                    <i class="fa-solid fa-location-dot text-4xl"></i>
+                    <h3 class="text-xl font-bold mt-5 mb-3">Our Location</h3>
+                    <p class="text-neutral-600">Kochi, Kerala, India</p>
+                </div>
+                <div class="bg-white text-center rounded-3xl px-8 py-9">
+                    <i class="fa-solid fa-phone text-4xl"></i>
+                    <h3 class="text-xl font-bold mt-5 mb-3">Phone Number</h3>
+                    <p class="text-neutral-600">+91 9876543210</p>
+                </div>
+                <div class="bg-white text-center rounded-3xl px-8 py-9">
+                    <i class="fa-solid fa-envelope text-4xl"></i>
+                    <h3 class="text-xl font-bold mt-5 mb-3"> Email Address</h3>
+                    <p class="text-neutral-600">snaps@everframe.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="w-full bg-neutral-500">
+        <div class="max-w-7xl px-6 mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-black text-center font-bold font-serif mb-4">Send Us an Enquiry</h2>
+                <p class="text-neutral-400">Tell us about your photography requirements.
+                We'll get back to you soon!</p>
+            </div>
+            <form>
+                <div class="mb-6">
+                    <label class="font-semibold mb-2 text-black">Full Name</label>
+                    <input type="text" placeholder="Enter Your Full Name" class="w-full border border-neutral-300 rounded-lg px-1 py-3">
+                </div>
+                <div class="mb-6">
+                    <label class="font-semibold mb-2 text-black">Email</label>
+                    <input type="email" placeholder="Enter Your Email" class="w-full border border-neutral-300 rounded-lg px-1 py-3">
+                </div>
+                <div class="mb-6">
+                    <label class="font-semibold mb-2 text-black">Phone Number</label>
+                    <input type="text" placeholder="Enter Your Contact Number" class="w-full border border-neutral-300 rounded-lg px-1 py-3">
+                </div>
+                <div class="mb-6">
+                    <label class="font-semibold mb-2 text-black">Select Photography Service</label>
+                    <select class="w-full border border-neutral-200 rounded-lg px-4 py-2">
+                        <option value="">Choose a service</option>
+                        <option>Wedding Photography</option>
+                        <option>Portrait Photography</option>
+                        <option>Event Photography</option>
+                        <option>Travel Photography</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="font-semibold mb-2 text-black">Your Message</label>
+                    <textarea placeholder="Enter Your Message Here..." class="w-full border border-neutral-300 rounded-lg px-1 py-3"></textarea>
+                </div>
+                <div class="text-center mt-8">
+                    <button type="submit" class="text-white mb-3 hover:bg-neutral-400 hover:text-black bg-neutral-700 rounded-full px-10 py-5 cursor-pointer">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="w-full bg-neutral-500">
+        <div class="max-w-7xl px-6 mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-black text-center text-3xl font-bold font-serif mb-4">Find Us Here</h2>
+                <p class="text-neutral-900">Visit us and let's create beautiful memories together.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251479.49747840138!2d76.13730642420359!3d9.986500064936651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Keralam!5e0!3m2!1sen!2sin!4v1794539641173!5m2!1sen!2sin" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="w-full bg-neutral-600 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div>
+                    <a href="index.html" class="text-3xl font-bold text-neutral-200 font-serif"><i
+                            class="fa-solid fa-photo-film mr-4"></i><span>EverFrame</span></a>
+                    <p class="text-black mt-5">
+                        Capturing beautiful moments and turning them
+                        into timeless memories through the art of photography.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-5">Quick Links</h3>
+                    <ul class="text-neutral-200">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="hover:text-white">About</a></li>
+                        <li><a href="portfolio.html" class="hover:text-white">Portfolio</a></li>
+                        <li><a href="services.html" class="hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-5">Contact Us</h3>
+                    <ul class="text-neutral-200">
+                        <li><i class="fa-solid fa-envelope"></i>snaps@everframe.com</li>
+                        <li><i class="fa-solid fa-phone"></i>+91 8462492147</li>
+                        <li><i class="fa-solid fa-location-dot"></i>Kerala, India</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-5">Follow Us</h3>
+                    <div class="gap-5">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
